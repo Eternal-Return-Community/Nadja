@@ -1,4 +1,4 @@
-# Eternal Return Client Auth
+# Eternal Return Auth Client
 * Um autenticador simples para pegar o token da conta do ERBS para usar a Api do client.
 * Pegue os endpoints com **Wireshark**
 
