@@ -6,4 +6,6 @@ const token = await auth.start();
 
 const nadja = new Nadja(token)
 
-export {}
+await nadja.changeNickname('nica')
+await nadja.searchUser('nica')
+await nadja.myAccount()

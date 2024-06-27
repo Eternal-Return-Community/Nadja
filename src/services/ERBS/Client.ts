@@ -53,8 +53,6 @@ export default abstract class Client {
         const response = await fetch(BASE_URL + params.endpoint, { method: params.method, headers: this._HEADERS, body: this.body(params?.body) });
         const data = await response.json();
 
-        console.log(data)
-
         if (!data?.rst) this.handleExceptions(data.cod);
 
         return data?.rst ?? data
