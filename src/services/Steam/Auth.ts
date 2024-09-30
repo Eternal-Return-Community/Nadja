@@ -14,9 +14,8 @@ export default class Client extends SteamUser {
         this.login()
     }
 
-    private login(): this {
+    private login(): void {
         this.logOn({ accountName: this.account.login, password: this.account.password })
-        return this;
     }
 
     public async start(): Promise<string> {

@@ -2,6 +2,9 @@
   "name": "nadja",
   "module": "./src/index.ts",
   "type": "module",
+  "scripts": {
+    "example": "bun run ./examples/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
